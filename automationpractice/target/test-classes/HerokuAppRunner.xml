@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false" >
+    <!--parallel="false"-->
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="false"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="os_version" value="10.15.4"/>
+    <parameter name="browserVersion" value="81"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="url" value="https://testpages.herokuapp.com/styled/index.html"/>
+
+
+<test name = "Practice Page">
+
+    <classes>
+<!--        <class name="page_objects_test.HomePageTest"/>-->
+        <class name="page_objects_test.HerokuAppTest"/>
+
+
+    </classes>
+
+ <!--Hello-->
+</test>
+
+</suite>
